@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^$ index.php [L]
+RewriteRule ^home\.html$ index.php?act=home [L]
+RewriteRule ^kelas\.html$ index.php?act=kelas [L]
+RewriteRule ^user\.html$ index.php?act=user [L]
+
+Options All -Indexes
